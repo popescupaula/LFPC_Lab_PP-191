@@ -1,0 +1,11 @@
+S -> Z A | Y A | b | a | Z S
+A -> A A1 | Y S | B A2
+D -> A B | Z S
+Z -> b
+Y -> a
+A1 -> B A2
+A2 -> Y Z
+B -> Z S
+C -> Y B1
+B1 -> Z C
+S0 -> Z A | Y A | b | a | Z S
