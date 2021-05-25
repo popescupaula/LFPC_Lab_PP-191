@@ -15,12 +15,12 @@ FA= (Q, Σ, δ,q0, F)
 Q={q0, q1, q2, q3}; Σ={a, b, c}; q0={q2}; F={q3};
 
 q0={A}; q1={B}; q2={S};
-δ(q2,a)={q2}; 
-δ(q2,b)={q2}; 
-δ(q2,c)={q0}; 
-δ(q0,a)={q1};
-δ(q1,a)={q1};
-δ(q1,b)={q1};
-δ(q1,c)={q3}.
+1. δ(q2,a)={q2}; 
+2. δ(q2,b)={q2}; 
+3. δ(q2,c)={q0}; 
+4. δ(q0,a)={q1};
+5. δ(q1,a)={q1};
+6. δ(q1,b)={q1};
+7. δ(q1,c)={q3}.
 
-
+![.](https://utm-my.sharepoint.com/:i:/g/personal/popescu_paula_isa_utm_md/ESZj_yIEit1HobxGtkoPjEcBA73IBRA14dFxi6sIWMVE2Q?e=LQv8nV)
