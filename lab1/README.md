@@ -23,4 +23,4 @@ q0={A}; q1={B}; q2={S};
 6. δ(q1,b)={q1};
 7. δ(q1,c)={q3}.
 
-![.](https://utm-my.sharepoint.com/:i:/g/personal/popescu_paula_isa_utm_md/ESZj_yIEit1HobxGtkoPjEcBA73IBRA14dFxi6sIWMVE2Q?e=LQv8nV)
+![alt_image](https://utm-my.sharepoint.com/:i:/g/personal/popescu_paula_isa_utm_md/ESZj_yIEit1HobxGtkoPjEcBA73IBRA14dFxi6sIWMVE2Q?e=LQv8nV)
