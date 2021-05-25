@@ -63,16 +63,16 @@ P={1. S->bA
 
 4. CNF
 P={
-S -> Z A | Y A | b | a | Z S
-A -> A A1 | Y S | B A2
-D -> A B | Z S
-Z -> b
-Y -> a
-A1 -> B A2
-A2 -> Y Z
-B -> Z S
-C -> Y B1
-B1 -> Z C
-S0 -> Z A | Y A | b | a | Z S
+1. S -> Z A | Y A | b | a | Z S
+2. A -> A A1 | Y S | B A2
+3. D -> A B | Z S
+4. Z -> b
+5. Y -> a
+6. A1 -> B A2
+7. A2 -> Y Z
+8. B -> Z S
+9. C -> Y B1
+10. B1 -> Z C
+11. S0 -> Z A | Y A | b | a | Z S
 }
 
