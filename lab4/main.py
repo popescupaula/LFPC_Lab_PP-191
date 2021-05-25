@@ -195,7 +195,6 @@ def parse(parsing_table, follow, i):
             for (idx, c) in enumerate(reversed(rules[word[0]])):
                 stack.append((c, len(rules[word[0]])-idx+1))
             
-            # building the tree
             for c in rules[word[0]]:                
                 (new_children, state) = parse(parsing_table, follow, i+1)
                 if(state):
