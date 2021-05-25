@@ -1,5 +1,5 @@
 # LFPC_Lab_PP-191
-Lab1: Variant 15 [(32+1)-18=15]
+Lab3: Variant 15 [(32+1)-18=15]
 
 G=(VN, VT, P, S) VN={S, A, B, C, D} VT={a, b}
 P={1. S->AC
