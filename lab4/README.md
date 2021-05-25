@@ -13,17 +13,19 @@ Initial productions:
 7. X->#   
 8. X->fDX
 
-1. FIRST and FOLLOW table
-	FISRT:    	FOLLOW
-S 	 a    		$
-A 	 a    		g
-B 	 e    		g
-C 	 e    		d
-D 	 e    		$
-X 	 #,f		d
+<pre>
+----- FIRST and FOLLOW table------ <br />
+----|   FIRST:   |   FOLLOW:   | <br />
+S 	 a    		$ <br />
+A 	 a    		g <br />
+B 	 e    		g <br />
+C 	 e    		d <br />
+D 	 e    		$ <br />
+X 	 #,f		d <br />
+</pre>
 
-
-2.Parsing table:
+<pre>
+----------Parsing table:-----------
     a    b    c    d    e    f    g
 S   Ag
 A   abcB
@@ -31,8 +33,10 @@ B                       Cd
 C                       eX
 D                       e
 X                  #         fDX
+</pre>
 
-3. Analysing the string abcefedg
+<pre>
+---------Analysing the string abcefedg----------
 Production			Derivation
 				S
 S->Ag				Ag
@@ -42,5 +46,5 @@ C->eX				abceXdg
 X->fDX				abcefDXdg
 D->e				abcefeXdg
 X->#				abcefedg
-
+</pre>
 
